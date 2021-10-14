@@ -13,7 +13,7 @@
 
 ### 🍔 技术栈
 
-![html5](https://img.shields.io/badge/html5-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=ffffff) ![css3](https://img.shields.io/badge/css3-1572B6.svg?&style=for-the-badge&logo=css3&logoColor=white) ![sass](https://img.shields.io/badge/sass-CC6699?logo=sass&logoColor=ffffff&style=for-the-badge) ![javascript](https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=222222&style=for-the-badge) ![typescript](https://img.shields.io/badge/typescript-007ACC?logo=typescript&logoColor=ffffff&style=for-the-badge) 
+![html5](https://img.shields.io/badge/html5-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=ffffff) ![css3](https://img.shields.io/badge/css3-1572B6.svg?&style=for-the-badge&logo=css3&logoColor=white) ![javascript](https://img.shields.io/badge/javascript-F7DF1E?logo=javascript&logoColor=222222&style=for-the-badge) ![typescript](https://img.shields.io/badge/typescript-007ACC?logo=typescript&logoColor=ffffff&style=for-the-badge) 
 
 ![vuejs](https://img.shields.io/badge/vue.js-35495e.svg?&style=for-the-badge&logo=vue.js) ![electron](https://img.shields.io/badge/electron-47848F.svg?&style=for-the-badge&logo=electron&logoColor=ffffff) ![nodejs](https://img.shields.io/badge/node.js-339933.svg?&style=for-the-badge&logo=node.js&logoColor=ffffff)
 
@@ -23,8 +23,8 @@
 
 <!-- ### Feature
 
-![deno](https://img.shields.io/badge/deno-000000.svg?&style=for-the-badge&logo=deno&logoColor=ffffff)
-![dart](https://img.shields.io/badge/dart-0175C2.svg?&style=for-the-badge&logo=dart&logoColor=ffffff)
+![golang](https://img.shields.io/badge/golang-000000.svg?&style=for-the-badge&logo=deno&logoColor=ffffff)
+![rust](https://img.shields.io/badge/rust-0175C2.svg?&style=for-the-badge&logo=dart&logoColor=ffffff)
 ![flutter](https://img.shields.io/badge/flutter-02569B.svg?&style=for-the-badge&logo=flutter&logoColor=ffffff) -->
 <h4 align="center">访客数 :eyes:</h4>
 
