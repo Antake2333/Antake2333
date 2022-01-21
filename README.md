@@ -26,9 +26,6 @@
 ![golang](https://img.shields.io/badge/golang-000000.svg?&style=for-the-badge&logo=deno&logoColor=ffffff)
 ![rust](https://img.shields.io/badge/rust-0175C2.svg?&style=for-the-badge&logo=dart&logoColor=ffffff)
 ![flutter](https://img.shields.io/badge/flutter-02569B.svg?&style=for-the-badge&logo=flutter&logoColor=ffffff) -->
-<h4 align="center">访客数 :eyes:</h4>
-
-<p align="center"><img src="https://profile-counter.glitch.me/{Antake2333}/count.svg" alt="Antake2333 :: Visitor's Count" /></p>
 
 ![profile](https://github-profile-trophy.vercel.app/?username=Antake2333&margin-w=28)
 
