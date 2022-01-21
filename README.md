@@ -27,7 +27,6 @@
 ![rust](https://img.shields.io/badge/rust-0175C2.svg?&style=for-the-badge&logo=dart&logoColor=ffffff)
 ![flutter](https://img.shields.io/badge/flutter-02569B.svg?&style=for-the-badge&logo=flutter&logoColor=ffffff) -->
 
-![profile](https://github-profile-trophy.vercel.app/?username=Antake2333&margin-w=28)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Antake2333)
 ![Antake2333's github stats](https://github-readme-stats.vercel.app/api?username=Antake2333&show_icons=true&count_private=true&line_height=40)
