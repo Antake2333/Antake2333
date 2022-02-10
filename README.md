@@ -48,3 +48,23 @@
 [Spring AOP简介](https://segmentfault.com/a/1190000023695558)
 [算法-动态规划 Dynamic Programming--从菜鸟到老鸟](https://blog.csdn.net/u013309870/article/details/75193592?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163833569016780271534825%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=163833569016780271534825&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-75193592.first_rank_v2_pc_rank_v29&utm_term=%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92&spm=1018.2226.3001.4187)
 [Spring--AOP、通知的执行顺序](https://www.cnblogs.com/liaowenhui/p/14164163.html)
+### springsecurity的一些注解的使用
+```
+编辑权限限制 10
+@PreAuthorize("@accessDecisionService.hasPermission('lease-budget',T(com.huawei.allinone.outsourcemanagement.sc.constant.AuthorityConstant).EDIT_AUTHORITY_NUM)")
+
+查看权限限制 1
+@PreAuthorize("@accessDecisionService.hasPermission('lease-budget',T(com.huawei.allinone.outsourcemanagement.sc.constant.AuthorityConstant).SCAN_AUTHORITY_NUM)")
+
+@AuthorityPostFilter(
+            elExpression = "deptCode=T(com.huawei.allinone.outsourcemanagement.sc.controller.diver.CommonController).getOdOrLeasedRoleCodes(#type)",
+            needFilter = "!@accessDecisionService.isGlobalScanPermission(#pageId)")
+
+@AuthorityPreFilter(
+            elExpression = "{deptCode:T(com.huawei.allinone.outsourcemanagement.sc.util.AuthorityUtil).validDeptCode(#deptCode)}",
+            needFilter = "!@accessDecisionService.isGlobalScanPermission('od-exit-staff')")
+			
+@AuthorityPreFilter(
+            elExpression = "{'queryVO.productLineCode':T(com.huawei.allinone.outsourcemanagement.sc.util.AuthorityUtil).validDeptCode(#queryVO?.productLineCode)}",
+            needFilter = "!@accessDecisionService.isGlobalScanPermission('area-dashboard')")
+```java
