@@ -67,4 +67,4 @@
 @AuthorityPreFilter(
             elExpression = "{'queryVO.productLineCode':T(com.huawei.allinone.outsourcemanagement.sc.util.AuthorityUtil).validDeptCode(#queryVO?.productLineCode)}",
             needFilter = "!@accessDecisionService.isGlobalScanPermission('area-dashboard')")
-```java
+```
