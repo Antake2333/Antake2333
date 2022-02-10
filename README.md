@@ -51,20 +51,20 @@
 ### springsecurity的一些注解的使用
 ```
 编辑权限限制 10
-@PreAuthorize("@accessDecisionService.hasPermission('lease-budget',T(com.huawei.allinone.outsourcemanagement.sc.constant.AuthorityConstant).EDIT_AUTHORITY_NUM)")
+@PreAuthorize("@accessDecisionService.hasPermission('lease-budget',T(com.xxx.constant.AuthorityConstant).EDIT_AUTHORITY_NUM)")
 
 查看权限限制 1
-@PreAuthorize("@accessDecisionService.hasPermission('lease-budget',T(com.huawei.allinone.outsourcemanagement.sc.constant.AuthorityConstant).SCAN_AUTHORITY_NUM)")
+@PreAuthorize("@accessDecisionService.hasPermission('lease-budget',T(com.xxx.constant.AuthorityConstant).SCAN_AUTHORITY_NUM)")
 
 @AuthorityPostFilter(
-            elExpression = "deptCode=T(com.huawei.allinone.outsourcemanagement.sc.controller.diver.CommonController).getOdOrLeasedRoleCodes(#type)",
+            elExpression = "deptCode=T(com.xxx.CommonController).getOdOrLeasedRoleCodes(#type)",
             needFilter = "!@accessDecisionService.isGlobalScanPermission(#pageId)")
 
 @AuthorityPreFilter(
-            elExpression = "{deptCode:T(com.huawei.allinone.outsourcemanagement.sc.util.AuthorityUtil).validDeptCode(#deptCode)}",
+            elExpression = "{deptCode:T(com.xxx.AuthorityUtil).validDeptCode(#deptCode)}",
             needFilter = "!@accessDecisionService.isGlobalScanPermission('od-exit-staff')")
 			
 @AuthorityPreFilter(
-            elExpression = "{'queryVO.productLineCode':T(com.huawei.allinone.outsourcemanagement.sc.util.AuthorityUtil).validDeptCode(#queryVO?.productLineCode)}",
+            elExpression = "{'queryVO.productLineCode':T(com.xxx.util.AuthorityUtil).validDeptCode(#queryVO?.productLineCode)}",
             needFilter = "!@accessDecisionService.isGlobalScanPermission('area-dashboard')")
 ```
