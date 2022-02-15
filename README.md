@@ -68,3 +68,5 @@
             elExpression = "{'queryVO.productLineCode':T(com.xxx.util.AuthorityUtil).validDeptCode(#queryVO?.productLineCode)}",
             needFilter = "!@accessDecisionService.isGlobalScanPermission('area-dashboard')")
 ```
+### 短视频直播
+[腾讯云直播签名](https://blog.csdn.net/qq_41645986/article/details/108660218)
