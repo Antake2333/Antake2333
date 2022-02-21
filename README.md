@@ -70,3 +70,5 @@
 ```
 ### 短视频直播
 [腾讯云直播签名](https://blog.csdn.net/qq_41645986/article/details/108660218)
+### 技术大全
+[疯狂创客圈](https://www.cnblogs.com/crazymakercircle/p/9904544.html)
