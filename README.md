@@ -1,5 +1,3 @@
- <a>![Gmail](https://img.shields.io/badge/Gmail-Antake2333@gmail.com-666666?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=D14836)</a>
-
 ## 🍕 I'm Antake2333
 
 * 咸鱼开发一枚
