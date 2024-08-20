@@ -2,7 +2,7 @@
 
 * 咸鱼开发一枚
 * 热爱编程, 拥抱开源
-* 热衷开发 ( RUST 天下无敌 )
+* 热衷开发 ( RUST/MOVE 天下无敌 )
 
 
  ![chrome](https://img.shields.io/badge/-chrome-4285F4?style=for-the-badge&logo=google-chrome&logoColor=ffffff) ![IE](https://img.shields.io/badge/IE-0076D6?style=for-the-badge&logo=internet-explorer&logoColor=ffffff)
